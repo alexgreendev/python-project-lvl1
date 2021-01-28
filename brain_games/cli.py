@@ -29,4 +29,4 @@ def run_game(
             return
         print('Correct!')
 
-    print(f'Congratulations, {user_name}')
+    print(f'Congratulations, {user_name}!')
