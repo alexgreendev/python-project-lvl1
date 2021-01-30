@@ -5,9 +5,6 @@ default:
 	make build
 	make package-install
 
-activate-env:
-	pyenv activate brain-games-package-3.8.2
-
 install:
 	poetry install
 
