@@ -3,6 +3,12 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 [![Github Actions Status](https://github.com/hexlet-boilerplates/python-package/workflows/Python%20CI/badge.svg)](https://github.com/alexgreendev/python-project-lvl1/actions)
 
+## Development Installation
+	pyenv install 3.8.2
+	pyenv virtualenv 3.8.2 brain-games-package-3.8.2
+	pyenv activate brain-games-package-3.8.2
+    make
+
 ## Usage
 ### Brain Even
 [![asciicast](https://asciinema.org/a/OYKZqWHtnOhwggOQlo1bDHsNu.svg)](https://asciinema.org/a/OYKZqWHtnOhwggOQlo1bDHsNu)

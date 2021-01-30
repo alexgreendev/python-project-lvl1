@@ -1,10 +1,13 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.9.0"
-description = ""
+description = "Brain games is the educational project on the hexlet"
 authors = ["Aleksandr Chepaikin <alexgreendev@gmail.com>"]
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+    "Topic :: Education"
 ]
 
 [tool.poetry.dependencies]
