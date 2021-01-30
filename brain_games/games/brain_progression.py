@@ -1,8 +1,10 @@
 import random
 from typing import Tuple
 
+DESCRIPTION = 'What number is missing in the progression?'
 
-def get_question() -> Tuple[str, str]:
+
+def question_maker() -> Tuple[str, str]:
     start = random.randint(1, 50)
     step = random.randint(1, 20)
     length = 10

@@ -1,13 +1,12 @@
 #!/usr/bin/env python
-from brain_games.cli import run_game
-from brain_games.games.brain_even import get_question
+from brain_games.engine import run_game
+from brain_games.games.brain_even import DESCRIPTION, question_maker
 
 
 def main():
     run_game(
-        description='Answer "yes" if the number is even,'
-                    ' otherwise answer "no".',
-        get_question=get_question,
+        description=DESCRIPTION,
+        question_maker=question_maker,
     )
 
 

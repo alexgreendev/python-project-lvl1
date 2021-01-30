@@ -1,8 +1,10 @@
 import random
 from typing import Tuple
 
+DESCRIPTION = 'What is the result of the expression?'
 
-def get_question() -> Tuple[str, str]:
+
+def question_maker() -> Tuple[str, str]:
     operand1 = random.randrange(1, 10)
     operand2 = random.randrange(1, 10)
 

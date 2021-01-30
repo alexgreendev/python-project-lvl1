@@ -5,8 +5,8 @@
 
 ## Development Installation
 	pyenv install 3.8.2
-	pyenv virtualenv 3.8.2 brain-games-package-3.8.2
-	pyenv activate brain-games-package-3.8.2
+	pyenv virtualenv 3.8.2 python-project-lvl1-3.8.2
+	pyenv activate python-project-lvl1-3.8.2
     make
 
 ## Usage

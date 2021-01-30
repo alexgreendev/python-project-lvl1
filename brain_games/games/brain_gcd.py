@@ -1,8 +1,10 @@
 import random
 from typing import Tuple
 
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
-def get_question() -> Tuple[str, str]:
+
+def question_maker() -> Tuple[str, str]:
     num1 = random.randrange(20, 100)
     num2 = random.randrange(20, 100)
 
