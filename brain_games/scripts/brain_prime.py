@@ -5,7 +5,8 @@ from brain_games.games.brain_prime import get_question
 
 def main():
     run_game(
-        description='Answer "yes" if given number is prime. Otherwise answer "no".',
+        description='Answer "yes" if given number is prime.'
+                    ' Otherwise answer "no".',
         get_question=get_question,
     )
 
