@@ -1,13 +1,15 @@
 import random
 from typing import Tuple
 
-DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+def get_description():
+    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def question_maker() -> Tuple[str, str]:
-    num = random.randint(1, 100)
-    answer = 'yes' if is_prime(num) else 'no'
-    return str(num), answer
+def make_question() -> Tuple[str, str]:
+    question = random.randint(1, 100)
+    answer = 'yes' if is_prime(question) else 'no'
+    return str(question), answer
 
 
 def is_prime(num: int):

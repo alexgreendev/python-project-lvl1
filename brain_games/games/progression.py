@@ -1,10 +1,12 @@
 import random
 from typing import Tuple
 
-DESCRIPTION = 'What number is missing in the progression?'
+
+def get_description():
+    return 'What number is missing in the progression?'
 
 
-def question_maker() -> Tuple[str, str]:
+def make_question() -> Tuple[str, str]:
     start = random.randint(1, 50)
     step = random.randint(1, 20)
     length = 10
@@ -14,5 +16,6 @@ def question_maker() -> Tuple[str, str]:
     hide_index = random.randrange(0, length)
     answer = progression.pop(hide_index)
     progression.insert(hide_index, '..')
+    question = ' '.join(map(str, progression))
 
-    return ' '.join(map(str, progression)), str(answer)
+    return question, str(answer)

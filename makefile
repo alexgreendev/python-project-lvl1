@@ -1,9 +1,4 @@
-default:
-	pip3 install poetry
-	poetry config virtualenvs.in-project true
-	make install
-	make build
-	make package-install
+.DEFAULT_GOAL := build
 
 install:
 	poetry install

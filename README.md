@@ -7,7 +7,11 @@
 	pyenv install 3.8.2
 	pyenv virtualenv 3.8.2 python-project-lvl1-3.8.2
 	pyenv activate python-project-lvl1-3.8.2
-    make
+	pip3 install poetry
+	poetry config virtualenvs.in-project true
+	make install
+	make build
+	make package-install
 
 ## Usage
 ### Brain Even
