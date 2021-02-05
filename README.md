@@ -15,13 +15,13 @@
 
 ## Usage
 ### Brain Even
-[![asciicast](https://asciinema.org/a/OYKZqWHtnOhwggOQlo1bDHsNu.svg)](https://asciinema.org/a/OYKZqWHtnOhwggOQlo1bDHsNu)
+[![asciicast](https://asciinema.org/a/dL0z6nzigJiZn7vEOyMQ0RPGg.svg)](https://asciinema.org/a/dL0z6nzigJiZn7vEOyMQ0RPGg)
 
 ### Brain Calc
-[![asciicast](https://asciinema.org/a/DEPPfauFmbFGI80l11wgggTCC.svg)](https://asciinema.org/a/DEPPfauFmbFGI80l11wgggTCC)
+[![asciicast](https://asciinema.org/a/dMdJ0Hw7cTI8qtjHcSZBiQYlS.svg)](https://asciinema.org/a/dMdJ0Hw7cTI8qtjHcSZBiQYlS)
 
 ### Brain GCD
-[![asciicast](https://asciinema.org/a/MsidHmWOTF5l07EgZp16VDV5H.svg)](https://asciinema.org/a/MsidHmWOTF5l07EgZp16VDV5H)
+[![asciicast](https://asciinema.org/a/gzN5EkbFeC9XdJVrsM7Si38nS.svg)](https://asciinema.org/a/gzN5EkbFeC9XdJVrsM7Si38nS)
 
 ### Brain Progression
 [![asciicast](https://asciinema.org/a/t3c0yJyZMTzf2uy6f5RBNUmmD.svg)](https://asciinema.org/a/t3c0yJyZMTzf2uy6f5RBNUmmD)
