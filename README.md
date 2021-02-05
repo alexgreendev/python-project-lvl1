@@ -7,7 +7,7 @@
 	pyenv install 3.8.2
 	pyenv virtualenv 3.8.2 python-project-lvl1-3.8.2
 	pyenv activate python-project-lvl1-3.8.2
-	pip3 install poetry
+	pip3 install poetry==1.0.9
 	poetry config virtualenvs.in-project true
 	make install
 	make build
