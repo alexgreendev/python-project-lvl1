@@ -11,7 +11,7 @@ def run_game(game):
 
     game_rounds_count = 3
     for round_number in range(0, game_rounds_count):
-        question, correct_answer = game.make_question()
+        question, correct_answer = game.make_question_with_answer()
         print(f'Question: {question}')
 
         user_answer = prompt.string('Your answer: ')

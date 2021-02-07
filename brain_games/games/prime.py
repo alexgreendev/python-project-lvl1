@@ -6,17 +6,20 @@ def get_description():
     return 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def make_question() -> Tuple[str, str]:
+def make_question_with_answer() -> Tuple[str, str]:
     question = random.randint(1, 100)
     answer = 'yes' if is_prime(question) else 'no'
     return str(question), answer
 
 
 def is_prime(num: int):
-    if num < 2 or (num > 2 and not num % 2):
+    if num < 2:
         return False
     if num == 2:
         return True
+    if num > 2 and not num % 2:
+        return False
+
     div = 3
     while div <= num // 2:
         if not num % div:

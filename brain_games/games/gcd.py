@@ -6,7 +6,7 @@ def get_description():
     return 'Find the greatest common divisor of given numbers.'
 
 
-def make_question() -> Tuple[str, str]:
+def make_question_with_answer() -> Tuple[str, str]:
     num1 = random.randrange(20, 100)
     num2 = random.randrange(20, 100)
 
