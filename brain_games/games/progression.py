@@ -13,8 +13,8 @@ def make_question_with_answer() -> Tuple[str, str]:
 
     progression = list(range(start, (start + length * step), step))
 
-    hidden_element_index = random.randrange(0, length)
-    answer, progression[hidden_element_index] = progression[hidden_element_index], '..'
+    hidden_index = random.randrange(0, length)
+    answer, progression[hidden_index] = progression[hidden_index], '..'
     question = ' '.join(map(str, progression))
 
     return question, str(answer)
