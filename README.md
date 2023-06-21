@@ -3,6 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/842debb3e951126e22d9/maintainability)](https://codeclimate.com/github/alexgreendev/python-project-lvl1/maintainability)
 [![Github Actions Status](https://github.com/hexlet-boilerplates/python-package/workflows/Python%20CI/badge.svg)](https://github.com/alexgreendev/python-project-lvl1/actions)
 
+
 ## Development Installation
 	pyenv install 3.8.2
 	pyenv virtualenv 3.8.2 python-project-lvl1-3.8.2
